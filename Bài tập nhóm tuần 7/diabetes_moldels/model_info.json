@@ -1,0 +1,43 @@
+{
+    "features": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+    ],
+    "feature_importance": {
+        "Pregnancies": 0.08298503429793529,
+        "Glucose": 0.2884417478773155,
+        "BloodPressure": 0.07851959790611307,
+        "SkinThickness": 0.06722069301966124,
+        "Insulin": 0.072908078905007,
+        "BMI": 0.16804246000551112,
+        "DiabetesPedigreeFunction": 0.12102853995095329,
+        "Age": 0.12085384803750349
+    },
+    "model_performance": {
+        "Logistic Regression": {
+            "train_accuracy": 0.7915309446254072,
+            "test_accuracy": 0.7142857142857143,
+            "auc": 0.8229629629629629
+        },
+        "Random Forest": {
+            "train_accuracy": 0.993485342019544,
+            "test_accuracy": 0.7532467532467533,
+            "auc": 0.8194444444444444
+        },
+        "SVM": {
+            "train_accuracy": 0.8355048859934854,
+            "test_accuracy": 0.7532467532467533,
+            "auc": 0.7924074074074074
+        }
+    },
+    "best_model": "Random Forest",
+    "total_samples": 768,
+    "training_samples": 614,
+    "test_samples": 154
+}
