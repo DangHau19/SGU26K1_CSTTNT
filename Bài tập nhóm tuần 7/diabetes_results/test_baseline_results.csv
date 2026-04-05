@@ -1,0 +1,19 @@
+Model,Dataset,Test_Accuracy
+LR,Raw (Thô),0.7403
+LR,MinMax Scaled,0.7532
+LR,Standard Scaled,0.7446
+LDA,Raw (Thô),0.7403
+LDA,MinMax Scaled,0.7403
+LDA,Standard Scaled,0.7403
+KNN,Raw (Thô),0.7186
+KNN,MinMax Scaled,0.71
+KNN,Standard Scaled,0.7143
+DT,Raw (Thô),0.7619
+DT,MinMax Scaled,0.7619
+DT,Standard Scaled,0.7619
+GNB,Raw (Thô),0.7446
+GNB,MinMax Scaled,0.7446
+GNB,Standard Scaled,0.7446
+SVM,Raw (Thô),0.7446
+SVM,MinMax Scaled,0.7359
+SVM,Standard Scaled,0.7532

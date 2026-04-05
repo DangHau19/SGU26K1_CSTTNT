@@ -1,0 +1,28 @@
+{
+    "KNN_tuned": {
+        "best_params": {
+            "metric": "manhattan",
+            "n_neighbors": 23,
+            "weights": "distance"
+        },
+        "cv_accuracy": 0.7656,
+        "test_accuracy": 0.7273
+    },
+    "SVM_tuned": {
+        "best_params": {
+            "C": 0.1,
+            "gamma": "scale",
+            "kernel": "linear"
+        },
+        "cv_accuracy": 0.7898,
+        "test_accuracy": 0.7316
+    },
+    "experiment_config": {
+        "total_samples": 768,
+        "train_samples": 537,
+        "test_samples": 231,
+        "train_test_ratio": "70/30",
+        "kfold_k": 10,
+        "random_state": 42
+    }
+}
