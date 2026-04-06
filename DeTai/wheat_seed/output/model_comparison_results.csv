@@ -1,0 +1,6 @@
+Model,CV Acc (mean),CV Acc (std),Test Acc,F1-macro
+kNN,0.9186,0.0266,0.8730,0.8713
+Naive Bayes,0.9253,0.0454,0.8254,0.8251
+Decision Tree,0.8844,0.0459,0.8889,0.8878
+Random Forest,0.9053,0.0781,0.9206,0.9192
+SVM,0.9391,0.0394,0.8730,0.8713
